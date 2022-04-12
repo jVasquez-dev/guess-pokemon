@@ -1,0 +1,32 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 24px;
+}
+
+img {
+  image-rendering: pixelated;
+  
+}
+
+.covered {
+  filter: brightness(0)
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.main-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.main-container img{
+  min-height: 350px;
+}
